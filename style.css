@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ,sans-serif;
+    color: white;
+}
+body{
+    background: linear-gradient(135deg,purple,darkblue,black)no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+
+}
+h1{
+    margin: 0 50px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0;
+    border: 2px solid transparent;
+    filter: drop-shadow(2px 2px 4px transparent);
+}
+nav ul li:hover{
+    border-bottom: 2px solid purple;
+    filter: drop-shadow(2px 2px 4px purple);
+    transition: 0.5s;
+
+}
+input{
+    width: 250px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: fit-content;
+    margin-right: 40px;
+    color: black;
+}
+.main{
+    margin-top: 2%;
+margin-right: 60px;
+}
+.content{
+    margin: 14%;
+    margin-right: -3%;
+    margin-left: 10%;
+    float: right;
+}
+h2{
+    font-size: 40px;
+    color: purple;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn{
+    padding: 15px 20 px;
+    cursor: pointer;
+    border-radius: 60px;
+    font-size: 18px;
+    margin: 10px 0;
+    color: black;
+    filter: drop-shadow(2px 4px 4px transparent);
+    border: none;
+}
+.btn:hover{
+    filter: drop-shadow(4px 4px 4px purple);
+    transition: 0.05;
+
+}
+.game{
+    margin-right: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links img{
+    margin: 5px;
+    cursor: pointer;
+    background-color: purple;
+    padding: 3px;
+    border-radius: 1px;
+}
+.linkss img{
+    margin: 5px;
+    cursor: pointer;
+    background-color: purple;
+    padding: 3px;
+    border-radius: 1px;
+}
